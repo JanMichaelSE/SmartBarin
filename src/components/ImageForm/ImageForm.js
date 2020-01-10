@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./ImageForm.css";
 
-const ImageForm = ({ onInputChange, onButtonSubmit }) => {
+const ImageForm = ({ onInputChange, onPictureSubmit }) => {
   return (
     <Fragment>
       <div>
@@ -17,7 +17,7 @@ const ImageForm = ({ onInputChange, onButtonSubmit }) => {
             />
             <button
               className="w-30 grow f4 link ph3 pv2 dib white bg-light-purple"
-              onClick={onButtonSubmit}
+              onClick={onPictureSubmit}
             >
               Detect
             </button>
